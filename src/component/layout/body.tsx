@@ -56,11 +56,12 @@ function Body() {
     
         </div>
         <div className='flex flex-row absolute z-20' style={{ position: 'absolute', top: '14%', transform: 'translateY(-50%)', marginLeft: '5%', textAlign: 'left' }}  >
-        <a href="https://app.blockpen.xyz/register-company" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-pink-500 to-gray-800 text-white" style={{ width: '200px', height: '40px', display: 'inline-block', textDecoration: 'none', textAlign: 'center', lineHeight: '40px' }}>
-      <Button>
-        Enterprise Registration
-      </Button>
-    </a>
+        User
+<a href="https://app.blockpen.xyz/register-company" target="_blank" rel="noopener noreferrer">
+    <Button className="bg-gradient-to-r from-pink-500 to-gray-800 text-white" style={{ width: '200px', height: '40px' }}>
+      Enterprise Registration
+    </Button>
+  </a>
           <h1 style={{marginLeft:40}}><img src={HowItWork.src} /></h1>
           <Button className="bg-gradient-to-r from-pink-500 to-gray-800 text-white" style={{ width: '200px', height: '40px' }}>
                 Enterprise Registration

@@ -11,11 +11,11 @@ const Header = () => {
         <div style={{ marginRight: '20px' }}>
           <Image src={logo} alt="Block-Pen Logo" style={{ width: '185px', height: '50px' }} />
         </div>
-        <a href="https:/app.blockpen.xyz" className="bg-gradient-to-r from-pink-500 to-gray-800 text-white" style={{ width: '200px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center', textDecoration: 'none' }}>
-          <Button>
-            Get Started
-          </Button>
-        </a>
+        <a href="https://app.blockpen.xyz" target="_blank" rel="noopener noreferrer">
+    <Button className="bg-gradient-to-r from-pink-500 to-gray-800 text-white" style={{ width: '200px', height: '40px' }}>
+      Get Started
+    </Button>
+  </a>
        
       </div>
     </header>
