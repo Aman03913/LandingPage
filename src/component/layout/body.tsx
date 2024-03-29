@@ -22,14 +22,14 @@ import Twitter from "/public/twitte.png";
 import Phone from "/public/phone.png";
 import Mail from  "/public/mail.png";
 import Address from "/public/address.png";
-import Footer from "@/component/layout/footer";
-<<<<<<< HEAD
 
-import {  Autocomplete,  AutocompleteSection,  AutocompleteItem, Link} from "@nextui-org/react";
-=======
+
+
+
+
 import Image  from 'next/image';
-import {  Autocomplete,  AutocompleteSection,  AutocompleteItem} from "@nextui-org/react";
->>>>>>> 33e63b1f0798cfa3ab3e20adcfe8c78eb5540e6c
+
+
 
 import {
   Card,
@@ -45,8 +45,8 @@ function Body() {
     <div>
       <div style={{ position: 'relative', zIndex: 0 }} className="m-0 mt-0">
         {/* Background image */}
-        <Image src={backgroundImagefull.src} alt="Background" style={{ width: '100%', height: 'auto' }} />
-  
+        <Image src={backgroundImagefull.src} alt='Background' style={{ width: '100%', height: 'auto' }} />
+
         {/* Content */}
         <div className="absolute z-20" style={{ position: 'absolute', top: '5%', transform: 'translateY(-50%)', marginLeft: '5%', textAlign: 'left' }}>
           <div style={{ color: '#83498C', fontSize: 'calc(32px + 0.5vw)' }}>
@@ -56,19 +56,16 @@ function Body() {
     
         </div>
         <div className='flex flex-row absolute z-20' style={{ position: 'absolute', top: '14%', transform: 'translateY(-50%)', marginLeft: '5%', textAlign: 'left' }}  >
-<<<<<<< HEAD
-        <a href="https://app.blockpen.xyz/register-company" target="_blank" rel="noopener noreferrer">
-    <Button className="bg-gradient-to-r from-pink-500 to-gray-800 text-white" style={{ width: '200px', height: '40px' }}>
-      Enterprise Registration
-    </Button>
-  </a>
+        <a href="https://app.blockpen.xyz/register-company" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-pink-500 to-gray-800 text-white" style={{ width: '200px', height: '40px', display: 'inline-block', textDecoration: 'none', textAlign: 'center', lineHeight: '40px' }}>
+      <Button>
+        Enterprise Registration
+      </Button>
+    </a>
           <h1 style={{marginLeft:40}}><img src={HowItWork.src} /></h1>
-=======
           <Button className="bg-gradient-to-r from-pink-500 to-gray-800 text-white" style={{ width: '200px', height: '40px' }}>
                 Enterprise Registration
           </Button>
           <h1 style={{marginLeft:40}}><Image alt="ll" src={HowItWork.src} /></h1>
->>>>>>> 33e63b1f0798cfa3ab3e20adcfe8c78eb5540e6c
           </div>
           <div className='flex flex-col absolute z-20' style={{ top: '18%',marginLeft:"30%" ,textAlign: "center" }}  >
             <h1 className='text-cyan-50'  style={{ fontSize: 'calc(30px + 1vw)', marginBottom: '0.5rem',textAlign:"center" }}>Did You Know  ?</h1>
