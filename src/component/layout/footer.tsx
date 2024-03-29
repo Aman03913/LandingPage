@@ -1,10 +1,10 @@
 import React from 'react'
 import Footer from "/public/footer.png";
-
+import Image from 'next/image';
 function footer() {
   return (
     <div>
-      <img src={Footer.src} />
+      <Image src={Footer.src} alt="Hello" />
     </div>
   )
 }
