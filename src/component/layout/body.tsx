@@ -23,7 +23,7 @@ import Phone from "/public/phone.png";
 import Mail from  "/public/mail.png";
 import Address from "/public/address.png";
 import Footer from "@/component/layout/footer";
-
+import Image  from 'next/image';
 import {  Autocomplete,  AutocompleteSection,  AutocompleteItem} from "@nextui-org/react";
 
 import {
@@ -38,7 +38,7 @@ function Body() {
     <div>
       <div style={{ position: 'relative', zIndex: 0 }} className="m-0 mt-0">
         {/* Background image */}
-        <img src={backgroundImagefull.src} alt="Background" style={{ width: '100%', height: 'auto' }} />
+        <Image src={backgroundImagefull.src} alt="Background" style={{ width: '100%', height: 'auto' }} />
   
         {/* Content */}
         <div className="absolute z-20" style={{ position: 'absolute', top: '5%', transform: 'translateY(-50%)', marginLeft: '5%', textAlign: 'left' }}>
@@ -52,7 +52,7 @@ function Body() {
           <Button className="bg-gradient-to-r from-pink-500 to-gray-800 text-white" style={{ width: '200px', height: '40px' }}>
                 Enterprise Registration
           </Button>
-          <h1 style={{marginLeft:40}}><img src={HowItWork.src} /></h1>
+          <h1 style={{marginLeft:40}}><Image alt="ll" src={HowItWork.src} /></h1>
           </div>
           <div className='flex flex-col absolute z-20' style={{ top: '18%',marginLeft:"30%" ,textAlign: "center" }}  >
             <h1 className='text-cyan-50'  style={{ fontSize: 'calc(30px + 1vw)', marginBottom: '0.5rem',textAlign:"center" }}>Did You Know  ?</h1>
@@ -61,29 +61,29 @@ function Body() {
 
           <div className='flex flex-row absolute z-20' style={{ top: '24%', marginLeft: '5%', marginRight: '5%', textAlign: "center" }}>
   <Card style={{ width: 'calc(25% - 20px)', height: 158, backgroundColor: "#0C1B44", marginRight: '5%', marginLeft: '5%' }}>
-    <img src={Img1.src} style={{ position: 'absolute', top: '-30px', width: 190, height: 50, alignContent: "center", left: '14.5%', transform: 'translateX(-50%)' }} />
-    <img style={{ width: 60, height: 30, marginTop: 10, marginLeft: 20 }} src={Arrow.src} />
+    <Image alt="ll" src={Img1.src} style={{ position: 'absolute', top: '-30px', width: 190, height: 50, alignContent: "center", left: '14.5%', transform: 'translateX(-50%)' }} />
+    <Image alt="ll" style={{ width: 60, height: 30, marginTop: 10, marginLeft: 20 }} src={Arrow.src} />
     <p className='' style={{ color: 'white', marginTop: 10 }}> {/* Adjust color and margin */}
       Worldwide spending on Blockchain solutions till 2019 was
     </p>
   </Card>
   <Card style={{ width: 'calc(25% - 20px)', height: 158, backgroundColor: "#0C1B44", marginRight: '5%' }}>
-    <img src={Img2.src} style={{ position: 'absolute', top: '-30px', width: 190, height: 50, alignContent: "center", left: '38%', transform: 'translateX(-50%)' }} />
-    <img style={{ width: 60, height: 30, marginTop: 10, marginLeft: 20 }} src={Arrow.src} />
+    <Image alt="ll" src={Img2.src} style={{ position: 'absolute', top: '-30px', width: 190, height: 50, alignContent: "center", left: '38%', transform: 'translateX(-50%)' }} />
+    <Image alt="ll" style={{ width: 60, height: 30, marginTop: 10, marginLeft: 20 }} src={Arrow.src} />
     <p className='' style={{ color: 'white', marginTop: 10 }}> {/* Adjust color and margin */}
       Share of companies in the consumer products and manufacturing industries currently using Blockchain
     </p>
   </Card>
   <Card style={{ width: 'calc(25% - 20px)', height: 158, backgroundColor: "#0C1B44", marginRight: '5%' }}>
-    <img src={Img3.src} style={{ position: 'absolute', top: '-30px', width: 190, height: 50, alignContent: "center", left: '62%', transform: 'translateX(-50%)' }} />
-    <img style={{ width: 60, height: 30, marginTop: 10, marginLeft: 20 }} src={Arrow.src} />
+    <Image alt="ll" src={Img3.src} style={{ position: 'absolute', top: '-30px', width: 190, height: 50, alignContent: "center", left: '62%', transform: 'translateX(-50%)' }} />
+    <Image alt="ll" style={{ width: 60, height: 30, marginTop: 10, marginLeft: 20 }} src={Arrow.src} />
     <p className='' style={{ color: 'white', marginTop: 10 }}> {/* Adjust color and margin */}
       of business leaders who are actively using Blockchain believe it plays a key role in advancing the technology.
     </p>
   </Card>
   <Card style={{ width: 'calc(25% - 20px)', height: 158, backgroundColor: "#0C1B44", marginRight: '5%' }}>
-    <img src={Img4.src} style={{ position: 'absolute', top: '-30px', width: 190, height: 50, alignContent: "center", left: '85.5%', transform: 'translateX(-50%)' }} />
-    <img style={{ width: 60, height: 30, marginTop: 10, marginLeft: 20 }} src={Arrow.src} />
+    <Image alt="ll" src={Img4.src} style={{ position: 'absolute', top: '-30px', width: 190, height: 50, alignContent: "center", left: '85.5%', transform: 'translateX(-50%)' }} />
+    <Image alt="ll" style={{ width: 60, height: 30, marginTop: 10, marginLeft: 20 }} src={Arrow.src} />
     <p className='' style={{ color: 'white', marginTop: 10 }}> {/* Adjust color and margin */}
       e-Signature transactions have ballooned in just 5 years.
     </p>
@@ -135,7 +135,7 @@ Its transparent and decentralized nature instills trust and <br/>confidence in d
     <Card style={{ width: '173px', height: `193px`, backgroundColor: "#0C1B44", marginRight: '20px' }}>
         <div className='flex flex-col'>
 
-             <img src={Trace.src} style={{width:40,height:40,marginTop:20,marginLeft:20,marginBottom:1}} />
+             <Image alt="ll" src={Trace.src} style={{width:40,height:40,marginTop:20,marginLeft:20,marginBottom:1}} />
              <h1 className='text-cyan-50' style={{ fontFamily: "sans-serif",  fontSize: 'calc(5px + 1vw)', textAlign: "left",marginLeft:10 }}>
              Traceable
              </h1>
@@ -153,7 +153,7 @@ Its transparent and decentralized nature instills trust and <br/>confidence in d
     <Card style={{ width:  '173px', height: `193px`, backgroundColor: "#0C1B44" ,marginLeft:'20%'}}>
     <div className='flex flex-col'>
 
-<img src={Anti.src} style={{width:40,height:40,marginTop:20,marginLeft:20,marginBottom:1}} />
+<Image alt="ll" src={Anti.src} style={{width:40,height:40,marginTop:20,marginLeft:20,marginBottom:1}} />
 <h1 className='text-cyan-50' style={{ fontFamily: "sans-serif",  fontSize: 'calc(5px + 1vw)', textAlign: "left",marginLeft:10 }}>
 Anti Fraud
 </h1>
@@ -171,7 +171,7 @@ Blockchain is known for the high-level security it provides to all its users and
     <Card style={{width:  '173px', height: `193px`, backgroundColor: "#0C1B44",marginLeft: '-80px'  }}>
     <div className='flex flex-col'>
 
-<img src={Integrity.src} style={{width:40,height:40,marginTop:20,marginLeft:20,marginBottom:1}} />
+<Image alt="ll" src={Integrity.src} style={{width:40,height:40,marginTop:20,marginLeft:20,marginBottom:1}} />
 <h1 className='text-cyan-50' style={{ fontFamily: "sans-serif",  fontSize: 'calc(5px + 1vw)', textAlign: "left",marginLeft:10 }}>
 Integrity
 </h1>
@@ -187,7 +187,7 @@ Documents stored on Blockchain which is built on dependability, transparency, ho
     <Card style={{ width:  '173px', height: `193px`,  backgroundColor: "#0C1B44",marginLeft:'20%' }}>
     <div className='flex flex-col'>
 
-<img src={Smart.src} style={{width:40,height:40,marginTop:15,marginLeft:20,marginBottom:1}} />
+<Image alt="ll" src={Smart.src} style={{width:40,height:40,marginTop:15,marginLeft:20,marginBottom:1}} />
 <h1 className='text-cyan-50' style={{ fontFamily: "sans-serif",  fontSize: 'calc(5px + 1vw)', textAlign: "left",marginLeft:10 }}>
 Rigid Smart Contract
 </h1>
@@ -229,7 +229,7 @@ With Blockchain businesses can make smart contracts that can be signed from <br/
 
          
     
- <img src={CreateContract.src}  />
+ <Image alt="ll" src={CreateContract.src}  />
     
 
 
@@ -246,13 +246,13 @@ blockchain.</p>
          <div className='flex flex-col' style={{marginLeft:-200}}>
        <h1 className='text-cyan-50' style={{marginTop:50, fontFamily: "sans-serif",  fontSize: 'calc(15px + 1vw)', marginBottom: '0.5rem', textAlign: "center", fontWeight: 'bold',marginLeft:-360 }}>How long should you hold
 cryptocurrency?</h1>
-       <p className='text-cyan-50' style={{marginLeft:-300,textAlign:"left"}}>The duration to hold cryptocurrency depends on investment<br/> goals, risk tolerance, and market conditions. Generally, <br/>long-term holding, or "HODLing," is recommended for potential <br/>value appreciation and weathering market fluctuations.
-blockchain.</p>
+       <p className='text-cyan-50' style={{marginLeft:-300,textAlign:"left"}}>{`The duration to hold cryptocurrency depends on investment`}<br/> {`goals, risk tolerance, and market conditions. Generally,`} <br/>{`long-term holding, or "HODLing," is recommended for potential`} <br/>{`value appreciation and weathering market fluctuations.
+blockchain.`}</p>
          </div>
       </div>
       <div>
       <h1 className='text-cyan-50' style={{ fontFamily: "sans-serif",  fontSize: 'calc(25px + 1vw)', marginBottom: '0.5rem', textAlign: "center", fontWeight: 'bold',marginLeft:-550 }}>Frequesntly Asked Question</h1>
-        <img src={Question.src}  />
+        <Image alt="ll" src={Question.src}  />
       </div>
 
      </div>
@@ -264,16 +264,16 @@ blockchain.</p>
 
           <div className='flex  absolute z-20' style={{ top: '85%' ,marginLeft:"20%",textAlign: "left" }}  >
                  <div className='flex flex-col' style={ {marginTop:300,marginLeft:-100}}>
-                 <img src={logo.src} width={100} height={100}/>
+                 <Image alt="ll" src={logo.src} width={100} height={100}/>
                  
                  <p style={{color:"#8A9BCA",marginTop:10,fontSize: 'calc(0.5px + 1vw)',}}>Cryptocurrency is a type of virtual currency that uses cryptography to secure<br/>
 transactions that are digitally recorded on a distributed ledger, such as a<br/>
 blockchain.</p>
   <div className='flex flex-row' style={{marginTop:20}}>
-    <img src={Insta.src} style={{margin:5}} alt="" />
-    <img src={Dribble.src} style={{margin:5}}alt="" />
-    <img src={Youtube.src} style={{margin:5}} alt="" />  
-    <img src={Twitter.src} style={{margin:5}} alt="" />
+    <Image alt="ll" src={Insta.src} style={{margin:5}}  />
+    <Image alt="ll" src={Dribble.src} style={{margin:5}} />
+    <Image alt="ll" src={Youtube.src} style={{margin:5}} />  
+    <Image alt="ll" src={Twitter.src} style={{margin:5}} />
   </div>
 
        
@@ -304,15 +304,15 @@ blockchain.</p>
 
                  <ul style={{marginTop:5}}>
                   <div className='flex flex-row'>
-                    <img src={Phone.src} style={{marginRight:5}}/>
+                    <Image alt="ll" src={Phone.src} style={{marginRight:5}}/>
   <li className='text-cyan-50' style={{fontSize: 'calc(1px + 1vw)',margin:2,marginTop:2}}>12345678</li>
   </div>
   <div className='flex flex-row'>
-                    <img src={Mail.src} style={{marginRight:5}}/>
+                    <Image alt="ll" src={Mail.src} style={{marginRight:5}}/>
   <li className='text-cyan-50' style={{fontSize: 'calc(1px + 1vw)',margin:2,marginTop:2}}>blockpen@gmail.com</li>
   </div>
   <div className='flex flex-row'>
-                    <img src={Address.src} style={{marginRight:5}}/>
+                    <Image alt="ll" src={Address.src} style={{marginRight:5}}/>
   <li className='text-cyan-50' style={{fontSize: 'calc(1px + 1vw)',margin:2,marginTop:2}}>Ghaziabad</li>
   </div>
   
